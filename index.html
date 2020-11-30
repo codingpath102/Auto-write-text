@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Navbar</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Animated Navbar</h1>
+            <ul>
+                <li><a data-page="home" href="#">Home</a></li>
+                <li><a data-page="about" href="#">About</a></li>
+                <li><a data-page="contact" href="#">Contact</a></li>
+                <li><a data-page="blog" href="#">Blog</a></li>
+                <div class="changer"></div>
+            </ul>
+        </nav>
+    </header>
+
+    <section data-index="0" class="home">
+        <h1>Home</h1>
+    </section>
+
+    <section data-index="1" class="about">
+        <h1>About</h1>
+    </section>
+
+    <section data-index="2" class="contact">
+        <h1>Contact</h1>
+    </section>
+
+    <section data-index="3" class="blog">
+        <h1>Blog</h1>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
